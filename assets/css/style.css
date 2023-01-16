@@ -1,0 +1,108 @@
+body{
+  min-height: auto;
+  max-width: auto; 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", Sans-Serif;
+  visibility: visible;
+  overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #ffffff;
+}
+
+.k-section-slide{
+  height: 100vh;
+}
+.k-section{
+  height: 90vh;
+}
+
+section .k-card{
+  background-color: rgb(7, 37, 7);
+}
+section .k-card-orange{
+  background-color: #ff8b00;
+}
+
+section .k-btn-orange{
+  background-color: #ff8b00;
+}
+section .k-btn-green{
+  background-color: #072507;
+  color: white;
+}
+
+.section-slide{
+  background-image: url('../images/bgsession01.svg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+}
+.section-slide-container{
+  background-image: url('../images/Ellipses.svg');
+  background-position: left;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.changeStyle {
+  background-color: rgb(7, 37, 7);
+}
+.nav-bar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.k-bg-opacity{
+  background-color: rgba(0, 0, 0, 0.308);
+}
+
+/* INICIO CONTROLE DE PRAGAS */
+.controle-de-pragas-desinsetizacao{
+  background-image: url('../images/desinsetizacao.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.controle-de-pragas-desratizacao{
+  background-image: url('../images/desratizacao.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.controle-de-pragas-descupinizacao{
+  background-image: url('../images/descupinizacao.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.controle-de-pragas-sanitizacao{
+  background-image: url('../images/sanitizacao.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.controle-de-pragas-desinfeccao{
+  background-image: url('../images/desinfeccao.svg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.controle-de-pragas-new{
+  /* background-image: url('../images/new.svg'); */
+  background-color: #28350a !important;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+/* FIM CONTROLE DE PRAGAS */
